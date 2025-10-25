@@ -44,13 +44,12 @@ public class EjcGemini2 {
 
 
 	public static void main(String[] args) {
-		String original = "charat";
-        System.out.println("Original: " + original);
-        System.out.println("Invertida: " + invString(original));
+		String cadena = "Recursivo";
+       
         
         EjcGemini2 var2= new EjcGemini2();
         
-        System.out.println(var2.invStringH(original,4));
+        System.out.println(var2.invStringH(cadena,5));
 	
 		
 
