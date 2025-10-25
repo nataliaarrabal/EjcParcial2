@@ -1,6 +1,6 @@
 package recursividad;
 
-public class EjcGemini {
+public class EjcGemini1 {
 	
 	public static int sumArray(int[]arr, int n) {
 	
@@ -34,7 +34,7 @@ public class EjcGemini {
 		
 		int arr[]= {2,4,4,5};
 		
-		EjcGemini var1= new EjcGemini();
+		EjcGemini1 var1= new EjcGemini1();
 		
 		System.out.println(var1.sumArray(arr)); //salida:14  suma de todos los valores
 		
