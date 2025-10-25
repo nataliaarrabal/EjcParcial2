@@ -10,15 +10,18 @@ public class MCD {
 		b=Math.abs(b);	
 		
 		if(b==0){
-			return a;
+			return 0;
 		}
 	// paso recursivo
 		
-		return mcd(a, a%b); // buscamos el minimo comun divisor
+	return mcd(a, a%b); // buscamos el minimo comun divisor
 	}
 	
 
 	public static void main(String[] args) {
+		
+		
+		System.out.println(mcd(48,18));
 		// TODO Auto-generated method stub
 
 	}
