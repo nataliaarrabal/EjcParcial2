@@ -10,11 +10,11 @@ public class MCD {
 		b=Math.abs(b);	
 		
 		if(b==0){
-			return 0;
+			return a;
 		}
 	// paso recursivo
 		
-	return mcd(a, a%b); // buscamos el minimo comun divisor
+	return mcd(b, a%b); // buscamos el minimo comun divisor
 	}
 	
 
