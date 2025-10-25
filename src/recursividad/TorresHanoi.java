@@ -28,7 +28,7 @@ public class TorresHanoi {
 
 	public static void main(String[] args) {
 		
-		int numDiscos=2;
+		int numDiscos=3;
 		System.out.println(numDiscos+ " discos: ");
 				towerOfHanoi(numDiscos, "A (origen)", "C (destino)", "B (auxiliar)");
 
